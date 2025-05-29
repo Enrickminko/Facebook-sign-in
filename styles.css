@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"],input[type="Text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.password-container {
+    display: flex;
+    align-items: left;
+    position: relative;
+}
+
+.password-container input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.password-container button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+button[type="submit"] {
+    background-color: #0056d2;
+    color: #ffffff;
+}
+
+button.google {
+    background-color: #1877f2;
+    color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+button.facebook {
+    background-color: #1877f2;
+    color: #ffffff;
+}
+
+button.apple {
+    background-color: #1877f2;
+    color: #ffffff;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #cccccc;
+}
+
+.divider::before {
+    margin-right: 10px;
+}
+
+.divider::after {
+    margin-left: 10px;
+}
+
+.signup-prompt {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-prompt a {
+    color: #0066cc;
+    text-decoration: none;
+}
